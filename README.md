@@ -5,9 +5,13 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sober-feedstock
 
 Home: https://github.com/airallergy/sober
 
-Package license: MIT
+Package license: BSD-3-Clause
 
 Summary: sober optimises built environment robustly
+
+Development: https://github.com/airallergy/sober
+
+Documentation: https://airallergy.github.io/sober
 
 Current build status
 ====================
