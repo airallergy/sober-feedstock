@@ -36,9 +36,7 @@ tests:
       imports:
         - sober
       pip_check: false
-  - requirements:
-      run:
-        - python ${{ python_min }}
+      python_version: ${{ python_min }}.*
 
 about:
   summary: sober optimises built environment robustly
