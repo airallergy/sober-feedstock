@@ -35,6 +35,7 @@ test:
     - sober
 
 about:
+  home: https://github.com/airallergy/sober # make conda-forge-linter happy, not defined in upstream
   summary: sober optimises built environment robustly
   license: BSD-3-Clause
   license_file: LICENSE
