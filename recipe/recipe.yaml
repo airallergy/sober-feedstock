@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: sober
-  python_min: 3.12.0
-  version: 0.4.0
+  python_min: "3.12"
+  version: "0.4.0"
 
 package:
   name: ${{ name }}
@@ -14,7 +14,7 @@ source:
   sha256: 806b869af980cddad78094560bdac14041d7e413bca6eb819ec3e807c29e39a6
 
 build:
-  number: 2
+  number: 3
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
